@@ -1,0 +1,184 @@
+body {
+    font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    background-color: #0d0f12;
+    height:100%;
+    min-height:100%; 
+}
+
+html {
+    height:100%;
+    min-height:100%; 
+}
+
+#wrapper {
+    height:100%;
+    min-height:100%; 
+}
+
+#showcase {
+    margin: 0 auto;
+}
+
+#showcase-content {
+    flex-direction: column;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 30%;    
+}
+
+#showcase-content a {   
+    width: 70%;
+}
+
+
+.showcase-text {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+.showcase-text strong {
+    font-size: 1em;
+    font-weight: bolder;    
+}
+body p {
+    font-size: 14px;
+}
+#left {
+    float: left; 
+    width: 40%;
+    margin-top: 120px;
+}
+
+#right {        
+    float: left; 
+    width: 60%;
+    background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    background-color: black;
+    height: 100%;    
+}
+
+#logo {
+    margin-bottom: 8vh;
+    display: flex;    
+    justify-content: center;
+    width: 100%;
+}
+
+#signin {
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    padding-bottom: 12px;
+    width: 60%;
+    display: flex;    
+    position: relative;
+    margin: 0 auto;
+}
+
+#signin input {
+    margin-bottom: 24px; 
+    margin-top: 5px;   
+    border: 1px solid hsla(0,0%,100%,.3);
+    border-radius: 2px;
+    display: flex;
+    font-weight: 400;
+    min-width: 192px;
+    padding: 8px 16px;
+    position: relative;
+    width: 91%;
+    font-size: 100%;
+    line-height: 1.15;    
+}
+
+.primary-btn {
+    color: hsla(0,0%,100%,.95);
+    background: #0074ab;
+    width: 100%;
+    margin-bottom: 48px;
+    font-size: 16px;
+    letter-spacing: .01em;
+    padding: 10px 16px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#signin label {
+    color: hsla(0,0%,100%,.95);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+#links a {
+    text-decoration: none;
+    text-align: center;
+    color: #2ea0d6;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.bar {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background-color: hsla(0,0%,100%,.15);
+    box-sizing: content-box;
+    overflow: visible;
+}
+
+#hr-bar {
+    margin-bottom: 24px;
+}
+.secondary-btn {   
+    color: hsla(0,0%,100%,.95);
+    background: rgba(138,153,168,.25);
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: .01em;
+    padding: 10px 16px;    
+    border: 0;
+    border-radius: 3px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#main-footer {
+    text-align: center;
+    color: hsla(0,0%,100%,.7);
+    flex-direction: column;
+    font-size: 12px;
+}
+
+#main-footer a {
+    color: hsla(0,0%,100%,.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    flex: 1;
+    max-width: 80%;
+    display:inline-block;
+}
+
+
+a {
+    background-color: transparent;
+}
+
+.label-input {
+    margin-bottom: 24px;
+}
